@@ -1,3 +1,28 @@
-h1{
-  color: red
+.homepage img{
+width: 500px;
+margin-top: 80px;
+margin-left: 70%;
 }
+header{
+  background-color:#0eccd8;
+}
+
+ul li{
+  display: inline;
+  text-decoration:none;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+}
+
+ul{
+  float: right;
+  margin-top: 25px;
+  }
+  ul li a{
+    text-decoration: solid;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+  }
+
