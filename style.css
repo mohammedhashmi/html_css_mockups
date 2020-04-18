@@ -125,3 +125,10 @@ a:hover{
   padding-top: 20px;
   border-top: 1px solid #cccbcb;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
