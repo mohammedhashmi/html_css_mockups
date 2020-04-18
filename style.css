@@ -14,8 +14,18 @@ h1{
 .footer {
   background: #f5f8fc;
   color: black;
-  height: 560px;
+  height: 300px;
+  bottom: 0px;
   position: relative;
+}
+
+.style{
+  background: #f5f8fc;
+  height: 580px;
+}
+
+.logo-text{
+  color: black;
 }
 
 a{
@@ -67,6 +77,7 @@ a:hover{
 
 .gap{
   padding: 0px;
+  list-style: none;
 }
 
 .row ul li{
@@ -75,9 +86,14 @@ a:hover{
   line-height: 2em;
 }
 
+.two{
+  padding-top: 10px;
+}
+
 .position{
   position: relative;
-  padding: 0%;
+  list-style: none;
+  padding-top: 5px;
 }
 
 .textcolor{
@@ -104,12 +120,27 @@ a:hover{
   border-radius: 50%;
 }
 
+
 .icon{
   width: 40px;
   margin: 12px 12px;
-  background-color: black;
-  background: 10px;
   color: white;
+  text-align: right;
+}
+
+
+.box1{
+  color: #666;
+}
+
+
+.box2 i{
+  text-align: right;
+  border-radius: 50%;
+  background-color: #666;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
 }
 
 
@@ -131,4 +162,9 @@ a:hover{
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+}
+
+.box1{
+  grid-column: 1/5;
+  grid-row: 1;
 }
